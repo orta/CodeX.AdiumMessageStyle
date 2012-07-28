@@ -1,0 +1,46 @@
+
+body {
+	margin: 0;
+	line-height: 1.4em;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+a {
+	border-bottom: 1px dashed;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+#chat {
+	padding: 0.8em;
+}
+
+.timestamp {
+	width: 5em;
+	display: inline-block;
+}
+
+.sender, .text { 
+	display: inline-block;
+}
+
+/* hid the timestamp / username on repeated conversations */
+.consecutive .timestamp, .consecutive .sender {
+	opacity: 0;
+}
+
+.status {
+	margin-top: 1em;
+}
+
+.history {
+	opacity: 0.5;
+}

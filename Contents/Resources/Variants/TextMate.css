@@ -1,0 +1,24 @@
+body {
+	background-color: #ffffff;
+}
+
+.status {
+	color:#1269f4;
+	opacity: 0.6;
+}
+
+.timestamp {
+	color: #8ae044;
+}
+
+.sender {
+	color: #1012f2;
+}
+
+.text {
+	color: #0d6a1b;
+}
+
+.mention {
+	background-color: #fecfd1;
+}

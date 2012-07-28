@@ -1,0 +1,17 @@
+body {
+	background-color:white;
+}
+
+.status {
+	color:#083d10;
+}
+
+.sender {
+	color:#a90c91;
+}
+
+.mention {
+	border-top: 1px solid #e9c9c5;
+	border-bottom: 1px solid #e9c9c5;
+	background-color: #fce7e4;
+}
